@@ -130,3 +130,22 @@ header {
     font-size: 18px;
     color: #1f2937;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 120px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+}
