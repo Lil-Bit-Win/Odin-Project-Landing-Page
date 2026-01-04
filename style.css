@@ -20,7 +20,7 @@ header {
     align-items: center;
     background-color: #1f2937;
     margin: 0;
-    padding: 12px;
+    padding: 24px 240px;
 }
 
 .logo {
@@ -48,13 +48,12 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     flex-shrink: 0;
     margin: 0;
-    padding: 12px;
-    gap: 16px;
+    padding: 24px 240px;
 }
 
 .hero-text {
@@ -63,7 +62,7 @@ header {
     align-items: center;
     height: auto;
     width: 350px;
-    padding: 12px;
+    padding: 24px;
 }
 
 .hero-text h2 {
@@ -80,11 +79,13 @@ header {
 }
 
 .signup-btn {
-    display: flex;
     color: #f9faf8;
     background-color: #3882f6;
-    margin: 4px;
-    padding: 8px;
+    font-size: 24px;
+    margin: 12px 0;
+    padding: 12px;
+    border: 2px solid #f9faf8;
+    border-radius: 12px;
 }
 
 .hero-image {
@@ -92,14 +93,15 @@ header {
     justify-content: center;
     align-items: center;
     background-color: grey;
-    height: 250px;
-    width: 450px;
+    height: 200px;
+    width: 400px;
+    border-radius: 12px;
 }
 
 .info {
     text-align: center;
     margin: 0;
-    padding: 12px;
+    padding:24px 240px;
 }
 
 .info h2 {
@@ -111,7 +113,7 @@ header {
 .info-card {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 80px;
 }
 
 .card {
@@ -128,14 +130,15 @@ header {
 }
 
 .card p {
-    font-size: 18px;
+    font-size: 24px;
     color: #1f2937;
 }
 
 .quote {
     background-color: #e5e7eb;
     margin: 0;
-    padding: 120px;
+    padding: 80px 240px;
+
 }
 
 .quote-text {
@@ -143,6 +146,7 @@ header {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 24px;
 }
 
 .quote-author {
@@ -154,7 +158,7 @@ header {
 
 .cta {
     margin: 0;
-    padding: 80px 120px;
+    padding: 80px 240px;
 }
 
 .cta-container {
@@ -171,6 +175,7 @@ header {
     color: #f9faf8;
     background-color: #3882f6;
     font-size: 24px;
+    margin: 12px 0;
     padding: 12px;
     border: 2px solid #f9faf8;
     border-radius: 12px;
@@ -180,7 +185,7 @@ footer {
     color: #e5e7eb;
     background-color: #1f2937;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     margin: 0;
-    padding: 24px;
+    padding: 24px 240px;
 }
