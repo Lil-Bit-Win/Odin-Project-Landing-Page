@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    padding-left: 8px;
 }
 
 ul{
@@ -53,6 +52,7 @@ header {
     align-items: center;
     background-color: #1f2937;
     flex-shrink: 0;
+    margin: 0;
     padding: 12px;
     gap: 16px;
 }
@@ -98,6 +98,7 @@ header {
 
 .info {
     text-align: center;
+    margin: 0;
     padding: 12px;
 }
 
@@ -133,6 +134,7 @@ header {
 
 .quote {
     background-color: #e5e7eb;
+    margin: 0;
     padding: 120px;
 }
 
@@ -148,4 +150,37 @@ header {
     color: #1f2937;
     font-size: 24px;
     font-weight: bold;
+}
+
+.cta {
+    margin: 0;
+    padding: 80px 120px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+
+.cta-btn {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 24px;
+    padding: 12px;
+    border: 2px solid #f9faf8;
+    border-radius: 12px;
+}
+
+footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 24px;
 }
